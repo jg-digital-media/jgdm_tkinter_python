@@ -1,6 +1,6 @@
 # jgdm_tkinter_python
 
-## Project coming soon (**Last Update:** 21-07-2022 13:24)
+## Project coming soon (**Last Update:** 21-07-2022 13:55)
 
 ### Setup
 
@@ -21,8 +21,9 @@ Use this command to enter the python shell and try our Tkinter projects on your 
 
 ### Project Files
 
+  + ### Basic - ```basic.py```
 
-### Temperature Calculator  ```temp.py``
+  + ### Temperature Calculator - ```temp.py```
 
 Source: [Link](https://realpython.com/python-gui-tkinter/)
 
