@@ -10,7 +10,7 @@
 
 You will need to use a Terminal or Command Line Interface to run the files with python.
 
-+ `python -versiom`
++ `python -version`
 
 If Python is installed to your system you will se a message like 
 
