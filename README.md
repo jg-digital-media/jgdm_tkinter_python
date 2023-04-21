@@ -1,6 +1,6 @@
 # jgdm_tkinter_python
 
-## Project coming soon (**Last Update:** 21-07-2022 13:55)
+## Project coming soon (**Last Update:** 21-04-2023 09:42)
 
 ### Setup
 
@@ -12,7 +12,7 @@ You will need to use a Terminal or Command Line Interface to run the files with 
 
 + `python -version`
 
-If Python is installed to your system you will se a message like 
+If Python is installed to your system you will see a message like 
 
 + `python`
 
