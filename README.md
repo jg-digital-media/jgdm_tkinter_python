@@ -1,8 +1,13 @@
 # jgdm_tkinter_python
 
-## Project coming soon (**Last Update:** 21-04-2023 09:42)
+## Project coming soon (**Last Update:** 20-03-2026 17:09)
+
+### Sections 
+
++  [Setup](#setup) | [Project Files](#project-files) | [Links](#links)
 
 ### Setup
+[Back to Top](#jgdm_tkinter_python)
 
 + This project requires Python and Version Control to be installed on your system.
 
@@ -20,6 +25,7 @@ Use this command to enter the python shell and try our Tkinter projects on your 
 
 
 ### Project Files
+[Back to Top](#jgdm_tkinter_python)
 
   + ### Basic - ```basic.py```
 
@@ -27,3 +33,9 @@ Use this command to enter the python shell and try our Tkinter projects on your 
 
 Source: [Link](https://realpython.com/python-gui-tkinter/)
 
+### Links 
+[Back to Top](#jgdm_tkinter_python)
+
+- [Tkinter Tutorial](https://realpython.com/python-gui-tkinter/)
+- [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
+- [W3Schools Tkinter Tutorial](https://www.w3schools.com/python/ref_module_tkinter.asp)
