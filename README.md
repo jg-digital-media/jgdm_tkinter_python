@@ -1,6 +1,6 @@
 # jgdm_tkinter_python
 
-## Project coming soon (**Last Update:** 20-03-2026 17:09)
+## Tkinter in Python: Mood Tracker App (**Last Update:** 01-04-2026 12:18)
 
 ### Sections 
 
