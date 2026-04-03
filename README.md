@@ -1,10 +1,10 @@
 # jgdm_tkinter_python
 
-## Tkinter in Python: Mood Tracker App (**Last Update:** 01-04-2026 12:18)
+## Tkinter in Python: Mood Tracker App (**Last Update:** 03-04-2026 20:38)
 
 ### Sections 
 
-+  [Setup](#setup) | [Project Files](#project-files) | [Links](#links)
++  [Setup](#setup) | [Project Files](#project-files) | [Code](#code) | [Links](#links)
 
 ### Setup
 [Back to Top](#jgdm_tkinter_python)
@@ -23,15 +23,85 @@ If Python is installed to your system you will see a message like
 
 Use this command to enter the python shell and try our Tkinter projects on your own
 
++ `python filename.py` to run the specified file
 
 ### Project Files
 [Back to Top](#jgdm_tkinter_python)
+
+  + ### Hello World - ```hello.py```
 
   + ### Basic - ```basic.py```
 
   + ### Temperature Calculator - ```temp.py```
 
+  + ### Mood Tracker - ```mood.py```
+
 Source: [Link](https://realpython.com/python-gui-tkinter/)
+
+### Code
+[Back to Top](#jgdm_tkinter_python)
+
+#### Mood.py
+
+```python
+
+### Run a new Tkinter app
+
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Mood Tracker")
+root.geometry("500x600")
+
+# Run the app
+root.mainloop()
+
+```
+
+```python
+
+### Add a label to the title frame
+
+tk.Label(
+    title_frame,
+    text="Tkinter Mood Tracker",
+    font=("Arial", 16)
+).pack()
+
+```
+
+```python
+
+import tkinter as tk
+
+root = tk.Tk()
+root.title("Mood Tracker")
+root.geometry("500x600")
+
+# Main sections
+title_frame = tk.Frame(root)
+mood_frame = tk.Frame(root)
+action_frame = tk.Frame(root)
+history_frame = tk.Frame(root)
+summary_frame = tk.Frame(root)
+
+title_frame.pack(fill="x", pady=10)
+mood_frame.pack(fill="x", pady=10)
+action_frame.pack(fill="x", pady=10)
+history_frame.pack(fill="both", expand=True, pady=10)
+summary_frame.pack(fill="x", pady=10)
+
+
+tk.Label(
+    title_frame,
+    text="Tkinter Mood Tracker",
+    font=("Arial", 16)
+).pack()
+
+# Run the app
+root.mainloop()
+
+```
 
 ### Links 
 [Back to Top](#jgdm_tkinter_python)
