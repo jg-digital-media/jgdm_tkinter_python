@@ -1,6 +1,6 @@
-# jgdm_tkinter_python
+# jgdm_tkinter_python - `Last Update: 03-04-2026 20:43`
 
-## Tkinter in Python: Mood Tracker App (**Last Update:** 03-04-2026 20:38)
+## Tkinter in Python: Mood Tracker App 
 
 ### Sections 
 
