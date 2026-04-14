@@ -1,4 +1,4 @@
-# jgdm_tkinter_python - `Last Update: 14-04-2026 15:24`
+# jgdm_tkinter_python - `Last Update: 14-04-2026 15:32`
 
 ## Tkinter in Python: Mood Tracker App 
 
@@ -73,6 +73,8 @@ root.mainloop()
 
 + Enter `python mood.py` in your command line/terminal.
 
+[Back to Code](#code)
+
 ##### `Add a label to the title frame`
 
 ```python
@@ -86,6 +88,7 @@ tk.Label(
 ).pack()
 
 ```
+[Back to Code](#code)
 
 ##### `define moods`
 
@@ -103,6 +106,7 @@ def toggle_mood(mood, button):
         button.config(bg="lightblue")
 
 ```
+[Back to Code](#code)
 
 #### `display mood buttons`
 ```python
@@ -118,6 +122,7 @@ for mood in moods:
     btn.config(command=lambda m=mood, b=btn: toggle_mood(m, b))
     btn.pack(side="left", padx=5)
 ```
+[Back to Code](#code)
 
 ##### `function to toggle mood button state`
 
@@ -131,6 +136,7 @@ def toggle_mood(mood, button):
         selected_moods.add(mood)
         button.config(bg="lightblue") 
 ```
+[Back to Code](#code)
 
 ##### `define save and reset buttons`
 
@@ -141,6 +147,7 @@ reset_btn = tk.Button(action_frame, text="Reset App", command=reset_app)
 save_btn.pack(side="left", padx=10)
 reset_btn.pack(side="left", padx=10)
 ```
+[Back to Code](#code)
 
 ##### `function to save mood choice`
 
@@ -169,6 +176,7 @@ def save_mood():
     #update_history()
     #update_summary()
 ```
+[Back to Code](#code)
 
 ##### `Create mood history UI frame`
 
@@ -176,6 +184,7 @@ def save_mood():
 history_list = tk.Listbox(history_frame)
 history_list.pack(fill="both", expand=True)
 ```
+[Back to Code](#code)
 
 ##### `function to update mood history`
 
@@ -193,6 +202,7 @@ def update_history():
         text = f"{entry['date']} - {', '.join(entry['moods'])}"
         history_list.insert(tk.END, text)
 ```
+[Back to Code](#code)
 
 ##### `function to update mood history`
 
@@ -211,6 +221,7 @@ def update_history():
         text = f"{entry['date']} - {', '.join(entry['moods'])}"
         history_list.insert(tk.END, text)
 ```
+[Back to Code](#code)
 
 ##### `Build mood summary frame content`
 
@@ -220,6 +231,7 @@ summary_label = tk.Label(summary_frame, text="Summary will appear here")
 summary_label.pack()
 
 ```
+[Back to Code](#code)
 
 ##### `function to handle updates to mood summary` Build mood summary logic
 
@@ -249,6 +261,7 @@ def update_summary():
     summary_text = "\n".join([f"{k}: {v}" for k, v in count.items()])
     summary_label.config(text=summary_text)
 ```
+[Back to Code](#code)
 
 ##### `function to handle reset of app`
 
@@ -268,6 +281,7 @@ def reset_app():
         history_list.delete(0, tk.END)
         summary_label.config(text="")        
 ```
+[Back to Code](#code)
 
 ##### App - `mood.py`
 
@@ -429,6 +443,7 @@ history_list.pack(fill="both", expand=True)
 root.mainloop()
 
 ```
+[Back to Code](#code)
 
 ### Links 
 [Back to Top](#)
