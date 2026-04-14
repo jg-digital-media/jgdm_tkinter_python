@@ -1,13 +1,13 @@
-# jgdm_tkinter_python - `Last Update: 14-04-2026 11:55`
+# jgdm_tkinter_python - `Last Update: 14-04-2026 15:24`
 
 ## Tkinter in Python: Mood Tracker App 
 
 ### Sections 
 
-+  [Setup](#setup) | [Project Files](#project-files) | [Code](#code) | [Links](#links)
++  [Setup](#setup) | [Project Files](#project-files) | [TODOs](#todos) | [Code](#code) | [Links](#links)
 
 ### Setup
-[Back to Top](#jgdm_tkinter_python)
+[Back to Top](#)
 
 + This project requires Python and Version Control to be installed on your system.
 
@@ -26,7 +26,7 @@ Use this command to enter the python shell and try our Tkinter projects on your 
 + `python filename.py` to run the specified file
 
 ### Project Files
-[Back to Top](#jgdm_tkinter_python)
+[Back to Top](#)
 
   + ### Hello World - ```hello.py```
 
@@ -38,8 +38,21 @@ Use this command to enter the python shell and try our Tkinter projects on your 
 
 Source: [Link](https://realpython.com/python-gui-tkinter/)
 
+### TODOs
+
+
+### Tasks `2` Completed `1` 
+
+#### DevNotes CLI
+
++ `TODO:` `COMPLETED: 14-04-2026` Build mood.py basic (v1) 
++ `TODO:` Organise mood.py code
+
+
+[Back to Top](#)
+
 ### Code
-[Back to Top](#jgdm_tkinter_python)
+[Back to Top](#)
 
 #### `Import the Tkinter module and run app`
 
@@ -87,7 +100,7 @@ def toggle_mood(mood, button):
         button.config(bg="SystemButtonFace")
     else:
         selected_moods.add(mood)
-        button.config(bg="lightblue"
+        button.config(bg="lightblue")
 
 ```
 
@@ -418,7 +431,7 @@ root.mainloop()
 ```
 
 ### Links 
-[Back to Top](#jgdm_tkinter_python)
+[Back to Top](#)
 
 - [Tkinter Tutorial](https://realpython.com/python-gui-tkinter/)
 - [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html)
