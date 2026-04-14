@@ -17,7 +17,34 @@ action_frame.pack(fill="x", pady=10)
 history_frame.pack(fill="both", expand=True, pady=10)
 summary_frame.pack(fill="x", pady=10)
 
+# define moods
+moods = ["Ecstatic", "Happy", "Neutral", "Low", "Very Sad"]
+selected_moods = set()
 
+# display mood buttons
+for mood in moods:
+    btn = tk.Button(
+        mood_frame,
+        text=mood,
+        width=10
+    )
+    
+    btn.config(command=lambda m=mood, b=btn: toggle_mood(m, b))
+    btn.pack(side="left", padx=5)
+
+
+# function to toggle mood button state
+def toggle_mood(mood, button):
+    if mood in selected_moods:
+        selected_moods.remove(mood)
+        button.config(bg="SystemButtonFace")
+    else:
+        selected_moods.add(mood)
+        button.config(bg="lightblue") 
+
+
+
+## create and displat the label frame
 tk.Label(
     title_frame,
     text="Tkinter Mood Tracker",
