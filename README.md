@@ -1,4 +1,4 @@
-# jgdm_tkinter_python - `Last Update: 14-04-2026 15:52`
+# jgdm_tkinter_python - `Last Update: 14-04-2026 15:57`
 
 ## Tkinter in Python: Mood Tracker App 
 
@@ -9,7 +9,7 @@
 ### Setup
 [Back to Top](#)
 
-+ This project requires Python and Version Control to be installed on your system. You will need to use a Terminal or Command Line Interface to open `mood.py` with Python.
++ This project requires Python and Version Control to be installed on your system. You will need to use a Terminal or Command Line Interface to run `mood.py` with Python.
 
 + Use the command `git clone https://github.com/jg-digital-media/jgdm_tkinter_python.git` to install this project to your system.
 
