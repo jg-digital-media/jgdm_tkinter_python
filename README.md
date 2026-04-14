@@ -1,4 +1,4 @@
-# jgdm_tkinter_python - `Last Update: 14-04-2026 15:32`
+# jgdm_tkinter_python - `Last Update: 14-04-2026 15:52`
 
 ## Tkinter in Python: Mood Tracker App 
 
@@ -9,21 +9,15 @@
 ### Setup
 [Back to Top](#)
 
-+ This project requires Python and Version Control to be installed on your system.
++ This project requires Python and Version Control to be installed on your system. You will need to use a Terminal or Command Line Interface to open `mood.py` with Python.
 
 + Use the command `git clone https://github.com/jg-digital-media/jgdm_tkinter_python.git` to install this project to your system.
 
-You will need to use a Terminal or Command Line Interface to run the files with python.
++ Run `python -version` to check python versions. If Python is installed to your system you will see a message like `Python 3.12.2`.
 
-+ `python -version`
+Use this command to enter the python shell and try our Tkinter projects on your own `python filename.py` to run the specified file.
 
-If Python is installed to your system you will see a message like 
-
-+ `python`
-
-Use this command to enter the python shell and try our Tkinter projects on your own
-
-+ `python filename.py` to run the specified file
++ Pressing the Reset Button deletes the `data.json` file which holds the data and resets the app to its initial state.
 
 ### Project Files
 [Back to Top](#)
@@ -41,11 +35,12 @@ Source: [Link](https://realpython.com/python-gui-tkinter/)
 ### TODOs
 
 
-### Tasks `2` Completed `1` 
+### Tasks `3` Completed `1` 
 
 #### DevNotes CLI
 
 + `TODO:` `COMPLETED: 14-04-2026` Build mood.py basic (v1) 
++ `TODO:` Persist Mood history data by loading existing data from `data.json` file on app start
 + `TODO:` Organise mood.py code
 
 
