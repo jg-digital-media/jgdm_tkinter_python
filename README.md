@@ -1,4 +1,4 @@
-# jgdm_tkinter_python - `Last Update: 03-04-2026 20:43`
+# jgdm_tkinter_python - `Last Update: 14-04-2026 11:43`
 
 ## Tkinter in Python: Mood Tracker App 
 
@@ -41,7 +41,7 @@ Source: [Link](https://realpython.com/python-gui-tkinter/)
 ### Code
 [Back to Top](#jgdm_tkinter_python)
 
-#### Mood.py
+#### `Import the Tkinter module and run app`
 
 ```python
 
@@ -58,6 +58,10 @@ root.mainloop()
 
 ```
 
++ Enter `python mood.py` in your command line/terminal.
+
+##### `Add a label to the title frame`
+
 ```python
 
 ### Add a label to the title frame
@@ -69,6 +73,54 @@ tk.Label(
 ).pack()
 
 ```
+
+##### `define moods`
+
+```python
+
+moods = ["Ecstatic", "Happy", "Neutral", "Low", "Very Sad"]
+selected_moods = set()
+
+def toggle_mood(mood, button):
+    if mood in selected_moods:
+        selected_moods.remove(mood)
+        button.config(bg="SystemButtonFace")
+    else:
+        selected_moods.add(mood)
+        button.config(bg="lightblue"
+
+```
+
+#### 
+
+```python
+
+# display mood buttons
+for mood in moods:
+    btn = tk.Button(
+        mood_frame,
+        text=mood,
+        width=10
+    )
+    
+    btn.config(command=lambda m=mood, b=btn: toggle_mood(m, b))
+    btn.pack(side="left", padx=5)
+```
+
+##### `function to toggle mood button state`
+
+```python
+
+def toggle_mood(mood, button):
+    if mood in selected_moods:
+        selected_moods.remove(mood)
+        button.config(bg="SystemButtonFace")
+    else:
+        selected_moods.add(mood)
+        button.config(bg="lightblue") 
+```
+
+##### `mood.py`
 
 ```python
 
@@ -91,7 +143,34 @@ action_frame.pack(fill="x", pady=10)
 history_frame.pack(fill="both", expand=True, pady=10)
 summary_frame.pack(fill="x", pady=10)
 
+# define moods
+moods = ["Ecstatic", "Happy", "Neutral", "Low", "Very Sad"]
+selected_moods = set()
 
+# display mood buttons
+for mood in moods:
+    btn = tk.Button(
+        mood_frame,
+        text=mood,
+        width=10
+    )
+    
+    btn.config(command=lambda m=mood, b=btn: toggle_mood(m, b))
+    btn.pack(side="left", padx=5)
+
+
+# function to toggle mood button state
+def toggle_mood(mood, button):
+    if mood in selected_moods:
+        selected_moods.remove(mood)
+        button.config(bg="SystemButtonFace")
+    else:
+        selected_moods.add(mood)
+        button.config(bg="lightblue") 
+
+
+
+## create and displat the label frame
 tk.Label(
     title_frame,
     text="Tkinter Mood Tracker",
