@@ -1,4 +1,4 @@
-# jgdm_tkinter_python - `Last Update: 14-04-2026 16:08`
+# jgdm_tkinter_python - `Last Update: 21-04-2026 14:49`
 
 ## Tkinter in Python: Mood Tracker App 
 
@@ -33,13 +33,14 @@ Source: [Link](https://realpython.com/python-gui-tkinter/)
 ### TODOs
 
 
-### Tasks `3` Completed `1` 
+### Tasks `4` Completed `1` 
 
 #### Python Tkinter Mood Tracker App
 
 + `TODO:` `COMPLETED: 14-04-2026` Build mood.py basic (v1) 
 + `TODO:` Persist Mood history data by loading existing data from `data.json` file on app start
 + `TODO:` Organise mood.py code
++ `TODO:` Toggle all mood buttons at once 
 
 
 [Back to Top](#)
