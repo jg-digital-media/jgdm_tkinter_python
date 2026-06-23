@@ -1,10 +1,10 @@
-# jgdm_tkinter_python - `Last Update: 21-04-2026 14:49`
+# jgdm_tkinter_python - `Last Update: 23-06-2026 15:02`
 
 ## Tkinter in Python: Mood Tracker App 
 
 ### Sections 
 
-+  [Setup](#setup) | [Project Files](#project-files) | [TODOs](#todos) | [Code](#code) | [Links](#links)
++  [Setup](#setup) | [Project Files](#project-files) | [TODOs](#todos) | [Code](#code) | [Notes](#notes) | [Links](#links)
 
 ### Setup
 [Back to Top](#)
@@ -41,6 +41,7 @@ Source: [Link](https://realpython.com/python-gui-tkinter/)
 + `TODO:` Persist Mood history data by loading existing data from `data.json` file on app start
 + `TODO:` Organise mood.py code
 + `TODO:` Toggle all mood buttons at once 
+
 
 
 [Back to Top](#)
@@ -438,6 +439,12 @@ root.mainloop()
 
 ```
 [Back to Code](#code)
+
+
+### Notes
+[Back to Top](#)
+
++ For portfolio: a working desktop application that handles input, state, and data persistence
 
 ### Links 
 [Back to Top](#)
